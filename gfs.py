@@ -39,7 +39,7 @@ logger = logging.getLogger(__name__)
 MAX_BYTE_SIZE = 2000000
 # Location to cache grib files
 GFS_CACHE = LOCAL_CACHE + "/earth2mip/gfs"
-GFS_CACHE = "/scratch/08105/ms86336/graphcast"
+GFS_CACHE = "/scratch/08105/ms86336/graphcast/cache"
 
 
 @dataclass
